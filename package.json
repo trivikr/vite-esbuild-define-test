@@ -4,7 +4,7 @@
   "description": "Testing ESBuild options in vite config",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev:esbuild": "esbuild src/index.js --servedir=. --outdir=dist --bundle"
   },
   "repository": {
     "type": "git",
