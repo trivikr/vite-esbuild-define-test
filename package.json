@@ -4,7 +4,7 @@
   "description": "Testing ESBuild options in vite config",
   "main": "index.js",
   "scripts": {
-    "dev:esbuild": "esbuild src/index.js --servedir=. --outdir=src --bundle --allow-overwrite",
+    "dev:esbuild": "esbuild src/index.ts --servedir=. --outdir=src --bundle --allow-overwrite",
     "dev:vite": "vite"
   },
   "repository": {
