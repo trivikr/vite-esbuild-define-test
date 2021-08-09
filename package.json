@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/trivikr/vite-esbuild-define-test/issues"
   },
-  "homepage": "https://github.com/trivikr/vite-esbuild-define-test#readme"
+  "homepage": "https://github.com/trivikr/vite-esbuild-define-test#readme",
+  "devDependencies": {
+    "esbuild": "0.12.19"
+  }
 }
