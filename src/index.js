@@ -1,1 +1,1 @@
-console.log(typeof global);
+console.log(`typeof global: ${typeof global}`);
